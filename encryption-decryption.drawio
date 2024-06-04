@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net" modified="2024-06-04T08:26:23.551Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="EJcfjn5XbYsv2MGAx48G" version="24.4.13" type="device">
+  <diagram name="Page-1" id="vBrL3a530IOMiWSsqsm0">
+    <mxGraphModel dx="1900" dy="1696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Start" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="39" width="50" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Input" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="38" y="83" width="52" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Key_Generation" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry y="185" width="129" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Encryption" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="19" y="269" width="92" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Output" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="32" y="352" width="65" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="End" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="44" y="435" width="41" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5060000610351563;exitY=1.0121212583599668;entryX=0.505769289456881;entryY=0.012121258359966856;" parent="1" source="2" target="3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" value="Key" style="curved=1;startArrow=none;endArrow=block;exitX=0.505769289456881;exitY=1.0242425167199336;entryX=0.4984496360601381;entryY=0.0060606869784268465;" parent="1" source="3" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.4984496360601381;exitY=1.0181819453383938;entryX=0.49239133751910663;entryY=-0.0121210849646366;" parent="1" source="4" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49239133751910663;exitY=1.0000001733953303;entryX=0.4969231238731971;entryY=1.7339533025568182e-7;" parent="1" source="5" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.4969231238731971;exitY=1.0121214317552971;entryX=0.4951220256526296;entryY=0.012121431755297112;" parent="1" source="6" target="7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
